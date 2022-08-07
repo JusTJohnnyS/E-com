@@ -144,13 +144,49 @@ button:active{
 
 
 .container{
+padding:56px 0;
 
 }
 
 
 .row{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
     
+
 }
 /* HIGHLIGHTS*/
 
 
+
+i{
+    border:1px solid black;
+    color:#7342d6;
+    padding:24px;
+}
+
+
+.highlight__img{
+    
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight__subtitle{
+    padding:8px 0; 
+}
+
+.highlight{
+    margin:0 auto;
+    padding:0 36px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.highlight__para{
+    text-align: center;
+}
