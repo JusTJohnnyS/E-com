@@ -21,9 +21,13 @@ nav{
 
 img{
     width:100%;
+    height: 100%;
+    max-height: 50vh;
+    padding:20px;
 }
 
 .nav__container{
+    padding-top:20px;
     width: 100%;
     max-width: 1200px;
     padding:0 24px;
@@ -75,7 +79,7 @@ li{
 
 }
 
-.landing{
+#landing{
     background-color: rgba(115, 66, 214, 0.1);
 }
 
@@ -90,6 +94,13 @@ header{
     height:100%;
     display:flex;
     flex-direction:column;
+    justify-content:space-around;
+}
+
+.header__description{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1{
@@ -100,8 +111,30 @@ h1{
 }
 
 h2{
+   font-size:32px;
+   margin-bottom:32px;
+   text-align:center;
+}
+button{
+    cursor: pointer;
    
-    font-size:32px;
-    margin-bottom:32px;
-    text-align:center;
+}
+button:active{
+    transform:translateY(2px);
+}
+
+.btn__place{
+    text-align: center;
+}
+.btn{
+    background-color: #7342d6;
+    color:white;
+    padding: 12px 24px;
+    font-size:20px;
+    border-radius: 25%;
+    border:none;
+}
+
+.header__img--wrapper{
+    padding:20px;
 }
