@@ -160,6 +160,8 @@ padding:56px 0;
 
 
 
+/*
+            I wrote it before getting to the video
 i{
     border:1px solid black;
     color:#7342d6;
@@ -168,7 +170,7 @@ i{
 
 
 .highlight__img{
-    
+    width:100%;
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -184,9 +186,20 @@ i{
     padding:0 36px;
     display:flex;
     justify-content: center;
-    align-items:center;
+    
 }
 
 .highlight__para{
     text-align: center;
+    padding-top:8px;
+}
+*/
+
+.highlight__wrapper{
+    display:flex;
+}
+
+.highlight{
+    padding:0 24px;
+    width: cal(100% /3)
 }
