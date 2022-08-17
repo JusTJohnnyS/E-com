@@ -197,9 +197,33 @@ i{
 
 .highlight__wrapper{
     display:flex;
+   
+}
+
+.highlight__img{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
 
 .highlight{
     padding:0 24px;
-    width: cal(100% /3)
+    width: cal(100% / 3);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.highlight__img{
+border:2px solid black;
+width:100px;
+height:100px;
+}
+
+.highlight__para{
+    text-align: center;
+}
+
